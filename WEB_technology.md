@@ -11,4 +11,5 @@
  - Метод (get получение, post отправдка, delete удаление ...)
  - Путь к ресурсу
  - Версия протокола
+ 
  ![http запрос](https://mdn.mozillademos.org/files/13687/HTTP_Request.png)
