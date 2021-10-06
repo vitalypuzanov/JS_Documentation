@@ -86,16 +86,13 @@ True, False
 
 ## Логические операторы
 В JavaScript есть три логических оператора:
-- || (ИЛИ)
-- && (И) 
-- ! (НЕ)
+ || (ИЛИ)
+ && (И) 
+ ! (НЕ)
 
 1. **ИЛИ ||**
 
-       alert( true || true );    true
-       alert( false || true );   true
-       alert( true || false );   true
-       alert( false || false );  false
+![||](./2.png)
 
 
 - Вычисляет операнды слева направо.
@@ -105,10 +102,7 @@ True, False
 
 2. **&& (И)**
 
-      alert( true && true );    true
-      alert( false && true );   false
-      alert( true && false );   false
-      alert( false && false );  false
+![||](./3.png)
 
 
 - Вычисляет операнды слева направо.
