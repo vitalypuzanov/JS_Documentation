@@ -79,7 +79,9 @@ type of
 1. **Чем отличается == и === ?**
 
 Двойное равно это сравнение с приведением к единому типу, Тройное равно это строгое сравнение без приведения типов.
+
 2. **Что выведет консоль при null==undefind и null===udefind ?**
+
 True, False 
 
 ## Логические операторы
@@ -103,10 +105,10 @@ True, False
 
 2. **&& (И)**
 
-      alert( true && true );   // true
-      alert( false && true );  // false
-      alert( true && false );  // false
-      alert( false && false ); // false
+      alert( true && true );    true
+      alert( false && true );   false
+      alert( true && false );   false
+      alert( false && false );  false
 
 
 - Вычисляет операнды слева направо.
