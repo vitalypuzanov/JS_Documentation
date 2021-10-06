@@ -3,6 +3,68 @@
   <span>JavaScript:</span>
 </h3> 
 
+
+## Типы данных 
+В JS существует 8 типов данных и 2 группы - примитивы и сложные структуры:
+- number число (целые и с плавующей точкой) до 2 в 53 степени
+- bigint для целых чисел большой длинны 
+- string строка
+- boolean (true/fakse)
+- null дле неизвестных значений 
+- undefind для неприсвоенных значений 
+- symbol уникалный модификатор 
+- object сложный тип 
+
+* Вопросы по этой теме *
+1. Чем отличается null от undefind ?
+Undefind - переменная инициализирована, но значение ей не задано, а null устанавливается самостоятельно. 
+2. Как узнать тип данных ?
+
+
+## Преобразование типов
+Для численных преоброзований :
+
+![numbers](./1.png)
+
+Для логических преоброзований:
+- Значения, которые интуитивно «пустые», вроде 0, пустой строки, null, undefined и NaN, становятся false.
+- Все остальные значения становятся true.
+
+// Строки и числа
+
+      <console.log(1 + '2') > string 12
+      <console.log('' + 1 + 0)> строка 10
+      <console.log('' - 1 + 0)> -1 
+      <console.log('3' * '8') > number 24 
+      <console.log(4 + 10 + 'px')> 14px 
+      <console.log('px' + 5 + 10) > string px510
+      <console.log('42' - 40)> 2
+      <console.log('42px' - 2)>NAN 
+      <console.log(null + 2)> 2
+      <console.log(undefined + 42)>NAN
+
+// == vs ===
+      <console.log(2 == '2')
+      <console.log(2 === '2')
+      <console.log(undefined == null)
+      <console.log(undefined === null)
+      <console.log('0' == false)
+      <console.log('0' == 0)
+      <console.log(0 == 0)
+
+// =====
+console.log(false == '') true 
+console.log(false == []) true 
+console.log(false == {}) false 
+console.log('' == 0) true
+console.log('' == []) true 
+console.log('' == {}) false 
+console.log(0 == []) true
+console.log(0 == {}) false 
+console.log(0 == null) false 
+
+
+
 ##  This   
 Значение this определяется во время исполнения кода.
 
